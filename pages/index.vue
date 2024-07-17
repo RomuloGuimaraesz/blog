@@ -1,6 +1,6 @@
 <template>
   <main>
-    <TheHero> A Nuxt Content v2 Blog with Bulma </TheHero>
+    <TheHero> Writing down some thoughts </TheHero>
     <BlogPostList />
   </main>
 </template>
