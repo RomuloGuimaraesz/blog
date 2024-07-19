@@ -6,34 +6,21 @@ const { data: blogPostList } = useAsyncData('blogPostList', () => {
 
 <template>
   <div class="container">
-    <section class="articles">
-      <div class="column is-8 is-offset-2">
-        <div
-          v-for="blogPost in blogPostList"
-          :key="blogPost._path"
-          class="card article"
-        >
-          <NuxtLink :to="blogPost._path">
-            <section class="blog-post-card card article">
-              <div class="media">
-                <div class="media-content has-text-centered">
-                  <h3 class="title article-title has-text-weight-bold">
-                    {{ blogPost.title }}
-                  </h3>
-                  <BlogPostMeta
-                    :author="blogPost.author"
-                    :date="blogPost.dates.published"
-                  />
-                </div>
-              </div>
-              <div class="card-content">
-                <div class="content article-body is-size-5">
-                  {{ blogPost.description }}
-                </div>
-              </div>
-            </section>
-          </NuxtLink>
-        </div>
+    <section>
+      <div
+        v-for="blogPost in blogPostList"
+        :key="blogPost._path"
+      >
+        <NuxtLink :to="blogPost._path">
+          <section class="blog-post-card">
+            <h3>
+              {{ blogPost.title }}
+            </h3>
+            <BlogPostMeta
+              :date="blogPost.dates.published"
+            />
+          </section>
+        </NuxtLink>
       </div>
     </section>
   </div>
@@ -41,15 +28,24 @@ const { data: blogPostList } = useAsyncData('blogPostList', () => {
 
 <style>
 .blog-post-card {
-  padding-top: 2.5rem;
-  padding-bottom: 3rem;
-}
-
-.blog-post-card .card-content {
+  background-color: #606c6a;
+  border-bottom: .5px solid #a0aba9;
+  color: #fff;
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  line-height: 32px;
   padding: 1rem;
 }
 
-.blog-post-card .title {
-  margin-bottom: 1rem;
+.blog-post-card.card-content {
+  height: fit-content;
+  padding: 1rem;
+}
+
+.blog-post-card h3 {
+  font-size: 1rem;
+  margin: 0;
+  text-decoration: none !important;
 }
 </style>

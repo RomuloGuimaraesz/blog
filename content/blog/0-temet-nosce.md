@@ -1,6 +1,6 @@
 ---
 title: "Temet Nosce"
-author: "Rômulo Guimarães"
+author: "@Rommy"
 dates:
   published: "2024-07-17"
 ---
@@ -18,7 +18,7 @@ And it relates to the procrastination behavior that I have bred my whole life.
 Always fooling myself that I can do it... I’m freaking dope! No... I’m not.
 The clock is ticking, but time is up!
 Someone once said to me: “Never be settled for what is not good”.
-Don’t know if she knew how strong this affirmation was, but I did.
+Don’t know if she knew how strong this **statement** was, but I did.
 I took it as one of my life's guiding values, one of my anchors.
 The hard part is facing ourselves, being honest... through and through.
 Looking back, I was certain that would never be a blogger.
@@ -26,3 +26,4 @@ Well, maybe I was wrong.
 For now on... no more bullsh*t, thank you very much.
 
 _São Paulo - July 17th, 2024_.
+**Updated – July 18th, 2024.**

@@ -1,6 +1,6 @@
 <template>
   <main>
-    <TheHero> Writing down some thoughts </TheHero>
+    <TheHero></TheHero>
     <BlogPostList />
   </main>
 </template>
