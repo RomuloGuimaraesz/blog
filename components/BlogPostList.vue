@@ -10,23 +10,30 @@ const { data: blogPostList } = useAsyncData('blogPostList', () => {
       <div
         v-for="blogPost in blogPostList"
         :key="blogPost._path"
+        class="blog-post-list"
       >
-        <NuxtLink :to="blogPost._path">
           <section class="blog-post-card">
-            <h3>
-              {{ blogPost.title }}
-            </h3>
+            <NuxtLink :to="blogPost._path">
+              <h3>
+                {{ blogPost.title }}
+              </h3>
+            </NuxtLink>
             <BlogPostMeta
               :date="blogPost.dates.published"
             />
           </section>
-        </NuxtLink>
       </div>
     </section>
   </div>
 </template>
 
 <style>
+.blog-post-list {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 .blog-post-card {
   background-color: #606c6a;
   border-bottom: .5px solid #a0aba9;
@@ -35,10 +42,12 @@ const { data: blogPostList } = useAsyncData('blogPostList', () => {
   height: 32px;
   justify-content: space-between;
   line-height: 32px;
-  padding: 1rem;
+  padding: .5rem 1rem;
 }
 
 .blog-post-card.card-content {
+  border: 1px solid transparent;
+  border-radius: 8px;
   height: fit-content;
   padding: 1rem;
 }

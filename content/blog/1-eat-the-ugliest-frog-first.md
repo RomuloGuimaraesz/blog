@@ -7,6 +7,8 @@ dates:
 
 # “If you have to eat two frogs, eat the ugliest one first”
 
+**18 Jul 2024**
+
 Weird statement, got me thinking…
 I get it when people use some crazy ways to express an idea, I prefer a more simple and straight approach.
 After reading it, I had to track who wrote it… and guess what? I bought a book!
@@ -27,5 +29,3 @@ This blog will be a way to commit to the task of writing, every day, in English 
 That’s it! This is me eating the ugliest frog first.
 I will try to be less verbose in the next posts.
 I see you in a minute!
-
-_São Paulo - July 18th, 2024_.

@@ -5,7 +5,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1>Hello there! My name is Rômulo, 
-            here I write down some thoughts about my interests.
+            here I write down some thoughts and share my interests.
         </h1>
       </div>
     </div>
