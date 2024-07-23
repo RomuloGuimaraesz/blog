@@ -5,8 +5,8 @@ dates:
   published: "2024-07-21"
 ---
 
-# Reculer Pour Mieux Sauter
-(Retreat to jump further)<br>
+# Reculer Pour Mieux Sauter #
+(Retreat to jump further)
 
 **21 Jul 2024**
 
