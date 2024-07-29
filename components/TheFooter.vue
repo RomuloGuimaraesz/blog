@@ -9,7 +9,7 @@
 <style>
   .footer {
     align-items: center;
-    color: #fff;
+    color: #48514f;
     display: flex;
     justify-content: center;
     font-size: .75rem;

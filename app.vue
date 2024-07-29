@@ -10,7 +10,7 @@
 
 <style>
 html {
-  background-color: #a0aba9;
+  background-color: #c9cfce;
   display: flex;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -36,7 +36,7 @@ a {
 }
 
 .article {
-  background-color: #303630;
+  background-color: #48514f;
   color: #fff;
 }
 

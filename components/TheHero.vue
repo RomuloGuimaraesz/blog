@@ -19,11 +19,11 @@
 
 .hero-body {
   align-items: center;
-  background-color: #a0aba9;
+  background-color: #c9cfce;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #485150;
   display: flex;
   height: 80px;
 }

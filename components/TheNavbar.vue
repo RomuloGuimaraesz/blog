@@ -3,16 +3,15 @@
 <template>
   <nav class="navbar">
     <nuxt-link to="/">Icthyosapien</nuxt-link>
-    <nuxt-link to="/about">About</nuxt-link>
   </nav>
 </template>
 
 <style>
   .navbar {
     align-items: center;
-    background-color: #a0aba9;
-    border-bottom: 0.5px solid #fff;
-    color: #fff !important;
+    background-color: #c9cfce;
+    border-bottom: 0.5px solid #48514f;
+    color: #a0aba9 !important;
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
@@ -21,6 +20,7 @@
   }
 
     .navbar a {
+      color: #48514f;
       text-decoration: none;
     }
 </style>
