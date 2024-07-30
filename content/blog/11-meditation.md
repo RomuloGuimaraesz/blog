@@ -1,4 +1,13 @@
+---
+title: "Meditation"
+author: "@Rommy"
+dates:
+  published: "2024-07-28"
+---
 
+# Meditation
+
+_28 Jul 2025_
 
 Initially, I didn’t plan on writing today. However, something has been on my mind, and I find that meditating on such thoughts often brings clarity. By reflecting on my ideas and feelings, I can delve into my past, seeking answers and understanding.
 
